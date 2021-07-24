@@ -1,0 +1,9 @@
+@media screen and(max-width:400px){
+    .box-container {
+        grid-template-columns: 1fr;
+        color: crimson;
+    }
+    .header-container {
+        color: crimson;
+    }
+}

@@ -1,0 +1,11 @@
+%btn-shared {
+    border-radius: 5px;
+    padding: 10px 50px;
+    color: $secondary-color;
+    border-style: none;
+    background-color: $accent-color;
+}
+
+button {
+    @extend %btn-shared;
+}

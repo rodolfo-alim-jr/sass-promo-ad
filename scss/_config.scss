@@ -1,0 +1,32 @@
+$primary-color: #4ecdc4;
+$secondary-color: #fff;
+$accent-color: #aacc00;
+$primary-dark: #07beb8;
+$text-color: #5c677d;
+$bg-color: #def6f7;
+$font-style: 'Roboto', sans-serif;
+$font-stack: (
+    "thin": 100,
+    "light": 300,
+    "regular": 400
+);
+
+
+// Margin and Padding
+$space-amounts: 1, 2, 3, 4, 5;
+
+@each $space-amount in $space-amounts{
+    .m-#{$space-amount} {
+        margin: #{$space-amount}rem;
+    }
+    .my-#{$space-amount} {
+        margin: #{$space-amount}rem 0;
+    }
+    .p-#{$space-amount} {
+        padding: #{$space-amount}rem;
+    }
+    .py-#{$space-amount} {
+        padding: #{$space-amount}rem 0;
+    }
+};
+
